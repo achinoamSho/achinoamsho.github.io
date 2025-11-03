@@ -1,0 +1,66 @@
+body {
+  font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  color: #3d2a4d;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+
+  background-color: #f8f5fc;
+  background-image:
+    linear-gradient(90deg, rgba(154, 112, 192, 0.06) 1px, transparent 1px),
+    linear-gradient(rgba(154, 112, 192, 0.06) 1px, transparent 1px);
+  background-size: 40px 40px;
+  background-position: top right;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #6a4c93;
+  font-weight: 600;
+}
+
+a {
+  color: #9d6bcf;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.intro-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  background-color: rgba(243, 236, 251, 0.8);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(106, 76, 147, 0.1);
+  margin-bottom: 30px;
+}
+
+.intro-text {
+  flex: 1;
+}
+
+.profile-pic {
+  width: 160px;
+  height: 200px;
+  border-radius: 20%;
+  border: 3px solid #d8c7f1;
+  object-fit: cover;
+  object-position: center top;
+  box-shadow: 0 4px 10px rgba(106, 76, 147, 0.15);
+}
+
+
+ul {
+  list-style-type: disc;
+  color: #6a4c93;
+  padding-left: 1.2em;
+}
+
+.contact {
+  margin-top: 30px;
+  font-style: italic;
+}
